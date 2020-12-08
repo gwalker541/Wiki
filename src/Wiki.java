@@ -57,6 +57,7 @@ public class Wiki {
 	private void read(String dir) {
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
         
+        
 		IndexWriter w = null;
 		try {
 			w = new IndexWriter(index, config);

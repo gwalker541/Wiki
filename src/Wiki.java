@@ -51,6 +51,7 @@ public class Wiki {
 		wiki.read("/C:/Users/Graham/Desktop/CSC483WebSearchTextRetrieval/Walker_Graham_WikiProj/WikiPages/");
 		System.out.println("Finished reading");
 		wiki.getAnswer("THE RESIDENTS Don Knotts took over from Norman Fell as the resident landlord on this sitcom");
+		
 
 	}
 	
